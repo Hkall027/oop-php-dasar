@@ -1,0 +1,113 @@
+• PROCEDURAL PROGRAMMING
+ - Instruksi dilakukan langkah demi langkah
+ - Memecahkan program menjadi bagian bagian kecil
+ - Disebut prosedur, subroutine atau function
+ - Linear / Top-to-Button
+ - Fortran, ALGO, COBOL, Pascal, C, PHP, Javascript
+
+• KELEBIHAN PROCEDURAL PROGRAMMING
+ - To-the-point
+ - Simplicity & kemudahan implementasin (Untuk compiler & interpreter)
+ - Mudah ditelusuri
+ - Membutuhkan lebih sedikit memory (Dibandingkan dengan OOP)
+
+• OBJECT ORIENTED PROGRAMMING
+ - Menyusun semuah kode program dan struktur data sebagai objek
+ - Objek adalah unit dasar dari program
+ - Objek menyimpan data dan perilaku
+ - Objek bisa saling berintraksi
+ - Java, Ruby, Python, C++, Javascript
+
+• KELEBIHAN OBJECT ORIENTED PROGRAMMING
+ - Representasi dunia nyata
+ - Enkapsulasi & Abstraksi data
+ - Reusability
+ - Skalabilitas & Ekstensibilitas
+ - Kemudahan pengelolaan
+ - Kolaborasi
+ - Digunakan oleh framework
+
+• PERBANDINGAN 
+ - PROCEDURAL VS OBJECT ORIENTED
+• PROCEDURAL
+ - Lebih tepat untuk membuat program yang simpel disarankan menggunakan PROCEDURAL
+• OBJECT ORIENTED
+ - Lebih tepat untuk membuat program yang besar dan di kerjakanya oleh tim atau berkolaborasi disarankan lebih tepat menggunakan OBJECT ORIENTED
+
+• KONSEP OOP PADA PHP
+ DI BAGI DUA YAITU •BASIC & •ADVANCED
+
+• BASIC
+ - Class & Object
+ - Property & Method
+ - Construktor
+ - Objek Type
+ - Inheritance
+ - Visibility / Access Modifier
+ - Setter & Getter
+ - Static Method
+
+• ADVANCED
+ - Abstract & Interface
+ - Interceptor
+ - Object Cloning
+ - Callbacks & Closures
+ - Namespaces & Autoloading
+ - dll
+
+• CLASS
+ - Blueprint / Template untuk membuat INSTANCE dari object
+ - Class mendefinisikan Object
+ - Menyimpan DATA dan PERILAKU yang disebut dengan PROPERTY dan METHOD
+ 
+• CARA MEMBUAT CLASS
+ - Diawali dengan menulis kyword class, diikuti nama dan di batasi dengan {} untuk      menyimpan property dan method
+ - Aturan penamaan class sama seperti variabel
+ 
+• OBJECT
+ - Instace yang didefinisikan oleh class
+ - Banyak object dapat dibuat menggunakan satu class
+ - Object dibuat dengan menggunakan keyword
+
+• PROPERTY
+ - Merepresentasikan data / keadaan dari sebuah object
+ - Variabel yang ada di dalam obejct (MEMBER VAARIABEL)
+ - Sama seperti variabel di dalam PHP, ditambah dengan visility di depanya
+
+• METHOD 
+ - merepresentasikan perilaku dari sebuah object
+ - Function yang ada di dalam object
+ - Sama seperti function di dalam PHP, ditambahkan dengan visibilty di depannya
+
+• INHERITANCE
+ - Menciptakan hierarke anter kelas (PARENT & CHILD)
+ - CHILD CLASS, mewarisi semua properti dan method dari parent-nya (yang visible)
+ - CHILD CLASS, memperluas (estends) fungsionalitas dari parent-nya
+
+• VISIBILITY
+ - Konsep yang digunakan untuk mengatur akses dari property dan method pada sebuah    objek
+ - Hanya memperlihatkan aspek dar class yang dibutuhkan oleh 'clien'
+ - Menentukan kebutuhan yang jelas untuk object
+ - Memberikan kendali pada kode untuk menghindari 'bug'
+ - Ada 3 keword visibility : PUBLIC, PROTECTED, DAN PRIVATE
+ 	• PUBLIC, dapat digunakan dimana saja, bahwa di luar kelas
+	• PROTECTED, hanya dapat di gunakan di dalam sebuah kelas beserta turunanya
+	• PRIVATE, hanya dapat di gunakan di dalam sebauh kelas tertentu saja\
+
+
+• STATIC KEYWORD
+ - Member yang terkait dengan class, bukan dengan onject
+ - Nilai static akan selalu tetap meskipun object di-instansiasi berulang kali
+ - Membuat kode menjadi 'procedural
+ - Biasanya digunakan untuk membuat fungsi bantauan / helper
+ - Atau digunakan di class-class utility pada Framework
+
+
+• ABSTRACK CLASS
+ - Sebuah kelas yang tidak dapat di-instansiasi
+ - Kelas'ABSTRAK'
+ - Mendefinisikan interface untuk kelas lain yang menjadi turunanya
+ - Berperan sebagai 'KERANGKA DASAR' untuk kelas turunannya
+ - Memiliki minimal 1 method abstrak
+ - Digunakan 'PEWARISAN' / inheritance untuk 'MEMAKSAKAN' implemantasi method abstak 
+   yang sama untuk semuah kelas turunannya
